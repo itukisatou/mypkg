@@ -4,10 +4,9 @@ jobs:             #走らせたい処理（ジョブ）のリスト
   test:           #testというジョブを作る
     runs-on: ubuntu-20.04   #どの環境で動かすか
     container: ryuichiueda/ubuntu22.04-ros2:latest #前ページのコンテナを使うという宣言
-    steps:                   #手続きの記述
-      
-uses: actions/checkout@v2    #コンテナのカレントディレクトリにリポジトリを配置
-name: build and test             #このジョブの名前
+    steps:                   #手続きの記述  
+      - uses: actions/checkout@v2    #コンテナのカレントディレクトリにリポジトリを配置
+      - name: build and test             #このジョブの名前
     run: |
       rsync -av ./ /root/ros2_ws/src/mypkg/    # リポジトリの下をros2_ws下にコピー
       cd /root/ros2_ws
