@@ -3,22 +3,22 @@
 
 [![test](https://github.com/itukisatou/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/itukisatou/mypkg/actions/workflows/test.yml)
 
-#ノード解説
-##talker
+# ノード解説
+## talker
 * このノードはパブリッシャを持つノードです。0.5秒間隔で0から1づつカウントアップし、countupトピックを通じてデータを送信します。また、送信するメッセージの型は16ビット符号付き整数です。
 
-##listener
+## listener
 * このノードはサブスクライバを持つノードです。countupトピックからメッセージを受信してターミナル上に表示します。
 
-#実行例
-##talkerの起動
+# 実行例
+## talkerの起動
 * 次のようにして実行します。また、実行するとターミナル上には何も表示されませんが、メッセージの送信は行われています。
 ```
 $ros2 run mypkg talker
 
 ```
 
-##listenerの起動
+## listenerの起動
 * 次のように実行します。talkerが起動していない状態で実行するとターミナル上には何も表示されません。
 ```
 $ros2 run mypkg listener
@@ -35,7 +35,7 @@ $ros2 run mypkg listener
 [INFO] [1703955173.520894892] [listener]: Listen: 5
 ```
 
-##talkerとlistenerの同時起動
+## talkerとlistenerの同時起動
 * ローンチファイルを利用して同時にかつ同一ターミナル上に表示することができます。
 ```
 $ros2 launch mypkg talk_listen.launch.py
@@ -51,22 +51,22 @@ $ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703955437.223217766] [listener]: Listen: 5
 ```
 
-#インストール方法
+# インストール方法
 * ROS 2をインストールしていない場合は、インストールしてください。
 * ROS 2のインストールがお済みの場合はこのリポジトリを自身のROS 2のワークスペースにクローンしてください。
 ```
 $git clone git@github.com:itukisatou/mypkg.git
 ```
 
-#必要なソフトウェア
+# 必要なソフトウェア
 * Python
 * ROS 2
 
-#テスト環境
+# テスト環境
 * Ubuntu 20.04
 * ROS 2 foxy
 
-#ライセンス関連
+# ライセンス関連
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます.
 * このパッケージは、Ryuichi Ueda由来のコード(© 2023 Ryuichi Ueda)を利用しています.
 * このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
