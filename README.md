@@ -70,8 +70,8 @@ $git clone git@github.com:itukisatou/mypkg.git
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます.
 * このパッケージは、Ryuichi Ueda由来のコード(© 2023 Ryuichi Ueda)を利用しています.
 * このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
-	* [ryuichiueda/my_slides robosys_2022/lesson8.html#/22](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html    #/22)
-	* [ryuichiueda/my_slides robosys_2022/lesson9.html#/4](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson9.html        #/4)
-	* [ryuichiueda/my_slides robosys_2022/lesson10.html#/4](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson10.html        #/4)
-	* [ryuichiueda/my_slides robosys_2022/lesson11.html#/6](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson11.html        #/6)
+    * [ryuichiueda/my_slides robosys_2022/lesson8.html#/22](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/22)
+    * [ryuichiueda/my_slides robosys_2022/lesson9.html#/4](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson9.html#/4)
+    * [ryuichiueda/my_slides robosys_2022/lesson10.html#/4](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson10.html#/4)
+    * [ryuichiueda/my_slides robosys_2022/lesson11.html#/6](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson11.html#/6)
 * © 2023 Ituki Satou
