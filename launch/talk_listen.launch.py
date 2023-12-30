@@ -4,7 +4,7 @@ import launch.substitutions
 import launch_ros.actions
 
 
-def generate_launch_descriptino():
+def generate_launch_description():
 
     talker = launch_ros.actions.Node(
         package='mypkg',
@@ -15,5 +15,4 @@ def generate_launch_descriptino():
 	executable='listener',
 	output='screen'
 	)
-
     return launch.LaunchDescription([talker, listener])
